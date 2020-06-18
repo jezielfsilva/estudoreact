@@ -20,6 +20,8 @@ export default class Timer extends React.Component {
     }
 
     render() {
-        return <h1>{this.state.elapsed} seconds</h1>
+        return <div className="BoxTree">
+                    <h1 className="TitleTwo">{this.state.elapsed} seconds</h1>
+               </div>
     }
 }

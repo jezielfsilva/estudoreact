@@ -12,9 +12,9 @@ export default class Container extends React.Component {
 
     render() {
         return (
-            <div>
-                <input value={this.state.name} onChange={(e) => this.change(e)} />
-                <p>Hello {this.state.name}!</p>
+            <div className="BoxOne">
+                <input className="FildName" value={this.state.name} onChange={(e) => this.change(e)} />
+                <p className="Text">Hello {this.state.name}!</p>
             </div>
         );
     }

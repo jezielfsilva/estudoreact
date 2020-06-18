@@ -2,4 +2,47 @@
   height: 100vh;
   text-align: center;
   background-color: #3a3b38;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.BoxOne, .BoxTwo, .BoxTree {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FildName {
+  width: 10vw;
+  height: 2.4vh;
+  border: 0.1em solid #d66b06;
+  border-radius: 2px;
+}
+
+.Text {
+  font-size: 1.4rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Title, .TitleTwo {
+  font-size: 3rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ClickAdd {
+  width: 9vw;
+  height: 5vh;
+  font-size: 1.4rem;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 2px;
+  color: #3a3b38;
+  cursor: pointer;
 }

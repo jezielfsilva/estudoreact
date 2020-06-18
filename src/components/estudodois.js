@@ -12,9 +12,9 @@ export default class Cont extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>{this.state.count}</h1>
-                <button onClick={this.increment.bind(this)}>+</button>
+            <div className="BoxTwo">
+                <h1 className="Title">{this.state.count}</h1>
+                <button className="ClickAdd" onClick={this.increment.bind(this)}>Adicionar</button>
             </div>
         );
     }
